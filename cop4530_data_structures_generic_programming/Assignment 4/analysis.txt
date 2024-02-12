@@ -1,0 +1,1 @@
+The worst case time complexity of the MakeEmpty private member function would be O(N), or linear. This is because the parameter passed in could be the root node of the tree, which would require the entire tree to be cleared. If this is the case, then for each node added to the tree, the function would need to delete an additional node.

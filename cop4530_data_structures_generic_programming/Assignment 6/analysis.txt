@@ -1,0 +1,11 @@
+Read:
+The worst case runtime of the read in operation is O(N). For every additional element added to the input set, another element just be read in by the program.
+
+Storing & setting:
+The worst case complexity of the storing and tracker setting is constant, or O(1). This is primarily due to the choice of STL container, which was a unordered map, which is an implementation of a hash table. Hashtables offer a O(1) complexity for lookups, and inserts, and the tracker variables, which were integer types, were set as pair data in the map at the time of lookup, requiring no additional searching.
+
+Final lookup:
+A final lookup of the values in the map was not performed. This was due to the fact that  a vector of top ten values was maintained during the creation of the different maps. While displaying the top ten data, dislaying the total number of characters/words/numbers in a given map invoked the .size() function, which offered O(1) complexity. 
+
+Top Ten
+The top ten process offers two primary complexity considerations. Firstly, a vector was used to maintain the top ten values, calling the STL sort function. For each value inserted into the map, a search was performed in the vector only if the number of appearances of the word/number/character was greater than or equal to the minimal element in the top ten vector. Initially, this process acts linear, or O(N), but once the vector hit the maximum size of 10, the process acts constant, aka O(1), as the overall input size gets large. Similarly, the vector was sorted after each alteration. According to the STL reference, the sort function offers Nlog(N) complexity, but due to the fact that the vector’s size was capped at 10, the process acts constant, O(1), as the input size gets large. Finally, printing the top ten values offers a similar analysis. As the vector grows to its maximum size, the print complexity would be linear, but since the size of the vector is capped at 10, the process acts constant, or O(1).
