@@ -1,0 +1,1 @@
+My code assumes an array size of 1000 will be used for testing and that the array has valid data at each index. Additionally, the program assumes the input file will be called 'scores.txt'.

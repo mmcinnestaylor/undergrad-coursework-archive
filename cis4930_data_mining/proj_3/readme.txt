@@ -1,0 +1,1 @@
+The program assumes Python3 is used. It accepts both absolute and relative paths. It assumes the dataset labels are either '-1' or '+1'. There are no known bugs or underflow issues. The csv and math Python packages are required for the program to run. 
