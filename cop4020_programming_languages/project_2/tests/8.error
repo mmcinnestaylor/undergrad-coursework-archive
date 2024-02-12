@@ -1,0 +1,4 @@
+program xyz is
+{
+print 45 div 0;
+}

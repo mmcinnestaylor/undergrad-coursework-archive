@@ -1,0 +1,6 @@
+program xyz is
+{
+x :: int;
+x = 5
+print x;
+}

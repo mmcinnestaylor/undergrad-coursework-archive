@@ -1,0 +1,5 @@
+program xyz is
+{
+x :: int;
+print 45 + 3 + x;
+}

@@ -1,0 +1,7 @@
+program abc is
+{
+message,message2 :: string;
+message = "I am a message";
+message2 = "I am a second message";
+print message,message2;
+}

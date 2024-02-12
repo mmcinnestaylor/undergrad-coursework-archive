@@ -1,0 +1,6 @@
+program xyz is
+{
+welcome :: string;
+welcome = "Hello";
+print 45 + welcome;
+}
