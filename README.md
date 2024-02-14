@@ -4,6 +4,7 @@ This is an archive of my coursework from various undergraduate CS courses at Flo
 
 Code | Name | Semester
 ---|---|---
+CDA 3100 | Computer Organization I | Fall 2017
 CEN 4020 | Software Engineering I | Spring 2019
 CIS 4930 | Data Mining | Fall 2020
 CIS 4930 | Python Programming | Summer 2019
