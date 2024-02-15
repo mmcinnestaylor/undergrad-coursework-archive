@@ -14,3 +14,4 @@ COP 3330 | Object Oriented Programming | Spring 2017
 COP 4020 | Programming Languages | Fall 2018
 COP 4530 | Data Structures, Algorithms, and Generic Programming | Fall 2017
 COP 4531 | Algorithms Analysis | Spring 2018
+COP 4710 | Databases | Summer 2018
